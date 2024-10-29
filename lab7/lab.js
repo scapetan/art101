@@ -1,25 +1,29 @@
 // index.js - javascript function creation
 // Author: Stella Capetanakis
 // Date: October 24 2024
-/*
+//got help from claude ai on this assignment!
 
+//function to sort the letters of a name
+function sortUserName(){
+    //get user input using window.prompt()
+   let userName = window.prompt("please enter your name :)");
 
-//function
+   //check if user entered a name
+if (userName){
+    //convert string to array, sort it, and join back to string
+    let nameArray = userName.split("");
+    let sortedArray = nameArray.sort();
+    let sortedName = sortedArray.join("");
 
+    return sortedName;
+}else {
+        return "you didn't enter a name!"
+    }
+}
 
+//output the sorted name to the webpage
+document.writeln("<div class='sorted-name'>",
+        "your sorted name is: ",
+        sortUserName(),
+        "</div>");
 
-// // Functions
-
-// // this is an example function and this comment tells what it doees and what parameters are passed to it.
-// function myFunction(param1, param2) {
-//   // some code here
-//   // return results;
-// }
-
-// function main() {
-//   console.log("Main function started.");
-//   // the code that makes everything happen
-// }
-
-// // let's get this party started
-// main()*/
