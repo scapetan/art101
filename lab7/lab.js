@@ -16,7 +16,7 @@ if (userName){
     let sortedName = sortedArray.join("");
 
     return sortedName;
-}else {
+} else {
         return "you didn't enter a name!"
     }
 }
