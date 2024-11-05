@@ -1,0 +1,95 @@
+/* lab.css */
+/* Styles for Lab 9 */
+
+/* Base styles for the page */
+body {
+    background-color: #f0f0f0;
+    /* font-family: Arial, sans-serif; */
+    font-family: Figtree;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for all sections */
+  .minor-section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #888;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Special class that gets toggled by jQuery */
+  .special {
+    background-color: #d4edda;
+    border: dotted 5px #28a745;
+    color: #155724;
+    font-weight: bold;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Style for the buttons added by jQuery */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navigation styles */
+  nav {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Output section specific styles */
+  #output {
+    min-height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Error message styling */
+  .jquery-error {
+    background: #ffebee;
+    color: #c62828;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ef5350;
+    text-align: center;
+  }
