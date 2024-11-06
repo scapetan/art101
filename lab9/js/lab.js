@@ -8,6 +8,8 @@
  */
 
 // Check if jQuery is loaded
+
+
 if (typeof jQuery === 'undefined') {
     console.error('jQuery is not loaded! Make sure your internet connection is working and the jQuery script tag comes before this script.');
     // Add a visible error message to the page
