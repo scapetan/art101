@@ -1,0 +1,84 @@
+/* lab.css */
+/* Styles for Lab 13 */
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    font-family: Figtree;
+    background-color: #b6b3c6;
+  }
+  
+  /* Controls section styling */
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    margin-right: 10px;
+  }
+  
+  .controls input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #888;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    font-family: Figtree;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Navigation styles */
+  nav {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Output section styling */
+  #output {
+    min-height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  #output p {
+    margin: 0;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #e9ecef;
+  }
+  
+  #output .fizz { background-color: #cce5ff; }
+  #output .buzz { background-color: #d4edda; }
+  #output .boom { background-color: #fff3cd; }
+  #output .multiple { background-color: #f8d7da; }
