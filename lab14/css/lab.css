@@ -1,5 +1,5 @@
 /* lab.css */
-/* Styles for Lab 13 */
+/* Styles for Lab 14 */
 
 .minor-section {
     padding: 10px;
@@ -59,26 +59,3 @@
     text-decoration: underline;
   }
   
-  /* Output section styling */
-  #output {
-    min-height: 50px;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
-    background-color: #f8f9fa;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10px;
-  }
-  
-  #output p {
-    margin: 0;
-    padding: 8px;
-    border-radius: 4px;
-    background-color: #e9ecef;
-  }
-  
-  #output .fizz { background-color: #cce5ff; }
-  #output .buzz { background-color: #d4edda; }
-  #output .boom { background-color: #fff3cd; }
-  #output .multiple { background-color: #f8d7da; }
