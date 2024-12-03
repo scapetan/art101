@@ -1,0 +1,51 @@
+/* lab.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    font-family: Figtree;
+    background-color: #b6b3c6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Output area styling */
+  #output {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    min-height: 100px;
+  }
+  
+  #output h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
